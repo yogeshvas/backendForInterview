@@ -19,3 +19,19 @@ var d = [...b]; //now d is an individual array with the values of b (these three
 //Smart Opertors
 // 0 false undefined Nan null "" document.all
 //for eg false || 12 -> 12
+
+//Loops
+// for , forin, forreach. while, dowhile
+
+// for(GrStatusWarning, ending, change){
+// }
+//FOR LOOPS
+for (var i = 0; i < 12; i++) {
+  console.log(i);
+}
+
+//FOR EACH
+var arr = [1, 2, 3, 4, 5, 6];
+arr.forEach(function (value) {
+  console.log(value, "from array");
+});
