@@ -35,3 +35,28 @@ var arr = [1, 2, 3, 4, 5, 6];
 arr.forEach(function (value) {
   console.log(value, "from array");
 });
+
+//conditional statement
+if (0) {
+  console.log("hey");
+} else if (true) {
+  console.log("Come here");
+} else {
+  console.log("not working");
+}
+
+//ternary operatory
+condition ? true : flase;
+
+//functions in JS
+function abcd() {}
+
+() => {
+  //fat arraow function
+};
+
+(a) => {
+  return;
+};
+
+() => 12;
