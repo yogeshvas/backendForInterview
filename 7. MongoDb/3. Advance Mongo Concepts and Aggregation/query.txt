@@ -1,0 +1,14 @@
+all commands
+1. Inserting Many at once
+2. eq
+3. ne
+4. lt
+5. lte
+6. gt
+7. gte
+8. in
+9. nin
+10. exists
+11. or
+12. size
+13. regex
