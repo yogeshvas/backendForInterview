@@ -1,8 +1,8 @@
 all commands
-1. Inserting Many at once
-2. eq
-3. ne
-4. lt
+1. InsertMany : Inserting Many at once 
+2. eq : equals to
+3. ne : not equals to
+4. lt :less than
 5. lte
 6. gt
 7. gte
