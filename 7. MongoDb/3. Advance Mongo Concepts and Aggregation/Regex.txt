@@ -1,0 +1,4 @@
+starts with = ^
+ends with = $
+in the middle of letters = .*
+case insensitive: /i

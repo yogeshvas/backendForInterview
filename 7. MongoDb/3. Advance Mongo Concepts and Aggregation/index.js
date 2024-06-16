@@ -168,4 +168,46 @@ app.get("/in", async (req, res) => {
   res.json(response);
 });
 
+//ninOpearator : not in
+app.get("/nin", async (req, res) => {
+  const response = await User.find({ age: { $nin: [50, 12, 10] } });
+  res.json(response);
+});
+
+//existOpearator :  check if the feild exists or not
+app.get("/exists", async (req, res) => {
+  const response = await User.find({ isAdmin: { $exists: true } });
+  res.json(response);
+});
+
+//andOperator : and
+app.get("/and", async (req, res) => {
+  const response = await User.find({
+    $and: [{ age: { $ne: 20 } }, { phoneNo: { $ne: 9876543210 } }],
+  });
+
+  res.json(response);
+});
+
+//orOrperator : or
+app.get("/or", async (req, res) => {
+  const response = await User.find({
+    $or: [
+      {
+        age: { $ne: 20 },
+      },
+      {
+        phoneNo: { $ne: 9876543210 },
+      },
+    ],
+  });
+});
+
+//regex
+app.get("/regex", async (req, res) => {
+  const response = await User.find({ name: { $regex: /^a.*h$/i } });
+  //upar waali statement ka matlab hai vo sare docs jinka name, as se tart hi, beech mein kcuh bhi ho aur h se ending ho, aur case insentitve hoe :)
+  res.json(response);
+});
+
 app.listen(3000);
