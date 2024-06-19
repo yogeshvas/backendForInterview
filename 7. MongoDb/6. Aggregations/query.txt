@@ -1,0 +1,5 @@
+$match -> match karta hai crieteria ki
+$group -> group karta hai data ko group on the basis of given crietera 
+$lookup -> lookup aapke data ke andar ksisi feild ke data ko bhar sakta hai dusre kisi aur collection ke through
+$project -> kisi data ko kisi aur tareeke se sjow kar sakta hai kuch aur feilds la sakta hai 
+$unwind -> saare data ki seperate document copy banayega
