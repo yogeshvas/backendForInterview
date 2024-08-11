@@ -2,14 +2,14 @@
 
 Topics Covered Till now :
 
-- [ ] Javascript Basics:
-- [ ] Express
-- [ ] Express Cookies
-- [ ] Morgan
-- [ ] Request Response
-- [ ] Dynamic Routing
-- [ ] Mongo DB : connections, cruds, advance mongo, joi, relationships, aggreation
-- [ ] Production setup
-- [ ] Auth
-- [ ] JWT-Auth
-- [ ] Google-O-Auth
+- [x] Javascript Basics:
+- [x] Express
+- [x] Express Cookies
+- [x] Morgan
+- [x] Request Response
+- [x] Dynamic Routing
+- [x] Mongo DB : connections, cruds, advance mongo, joi, relationships, aggreation
+- [x] Production setup
+- [x] Auth
+- [x] JWT-Auth
+- [x] Google-O-Auth
